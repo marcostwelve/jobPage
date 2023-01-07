@@ -1,0 +1,131 @@
+.secao__vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0;
+    position: relative;
+}
+.talentos {
+    width: 1280px;
+    height: 602px;
+    position: relative;
+}
+
+.vagas__talentos-img {
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/team.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50px;
+    top: 250px;
+}
+
+.vagas__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.anuncio-vagas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 4px 12px;
+    color: var(--cor-vermelha);
+    background-color: var(--cor-fundo-texto);
+    border-radius: 16px;
+}
+
+.vagas__titulo {
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--cor-titulo);
+}
+
+.vagas__texto {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--cor-link-menu);
+}
+
+.vagas__abertas {
+    margin: 64px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 32px;
+    /* position: absolute;
+    width: 1280px;
+    height: 358px; */
+    left: calc(50% - 1280px /2);
+    top: 762px;
+}
+
+.vagas {
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:0;
+    width: 768px;
+    height: 358px;
+}
+
+.vaga__area {
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cor-titulo);
+}
+
+.descricao__vaga {
+    width: 768px;
+    height: 296px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.vagas__info {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 28px 24px;
+    width: 768px;
+    border: 1px solid var(--cor-borda);
+    border-radius: 16px;
+}
+
+.informacao-vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 720px;
+    height: 84px;
+}
+
+.titulo-vaga {
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    color: var(--cor-titulo);
+}
+
+.extra__vaga {
+    margin-right: 24px;
+    line-height: 24px;
+    color: var(--cor-link-menu);
+}
